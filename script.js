@@ -1,8 +1,6 @@
 
 gsap.from(".circle", { duration: 2, scale: 0, opacity: 0, ease: "bounce" });
 gsap.from(".square", { duration: 2, x: 100, opacity: 0, ease: "power2.out" });
-
-// Mouse Movement Effects
 document.querySelector(".hero-section").addEventListener("mousemove", (e) => {
   const circle = document.querySelector(".circle");
   const square = document.querySelector(".square");
