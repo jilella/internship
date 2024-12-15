@@ -1,6 +1,4 @@
-// script.js
 
-// GSAP Animations
 gsap.from(".circle", { duration: 2, scale: 0, opacity: 0, ease: "bounce" });
 gsap.from(".square", { duration: 2, x: 100, opacity: 0, ease: "power2.out" });
 
